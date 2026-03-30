@@ -835,13 +835,14 @@ a {
 
 /*#region Footer form subcribe */
 .footer-three-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .footer-form {
   display: flex;
   gap: 24px;
+
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
 }
 .subscribe-item {
   color: rgba(255, 255, 255, 1);
@@ -852,7 +853,8 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 
-  margin: bottom 16px;
+  margin-bottom: 16px;
+  margin-left: 80px;
 }
 .subscribe-form-label {
 }
