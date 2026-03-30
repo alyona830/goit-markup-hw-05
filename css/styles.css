@@ -668,10 +668,13 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+  cursor: pointer;
+}
+.svg-close {
   fill: rgba(46, 47, 66, 1);
 }
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn .svg-close:hover,
+.modal-btn .svg-close:focus {
   background-color: #404bbf;
 
   fill: #ffffff;
@@ -694,9 +697,11 @@ a {
 }
 
 .feedback-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
-
+.feedback-wrapper-comment {
+  margin: 0;
+}
 .feedback-label {
   display: block;
   margin-bottom: 4px;
@@ -754,6 +759,8 @@ a {
   outline: none;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  margin-bottom: 16px;
 }
 .comment-form::placeholder {
   color: rgba(46, 47, 66, 0.4);
