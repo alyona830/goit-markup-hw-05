@@ -733,7 +733,7 @@ a {
 .feedback-icon {
   position: absolute;
   top: 50%;
-  left: 19px;
+  left: 16px;
 
   pointer-events: none;
   transform: translateY(-50%);
