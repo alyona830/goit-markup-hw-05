@@ -496,9 +496,12 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: #f4f4fd;
+
   max-width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
+
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -847,7 +850,7 @@ a {
 
 /*#region Footer form subcribe */
 .footer-three-section {
-  margin-left: auto;
+  margin-left: 80px;
 }
 .footer-form {
   display: flex;
