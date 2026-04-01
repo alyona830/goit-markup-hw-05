@@ -165,6 +165,7 @@ a {
   justify-content: flex-end;
 }
 .contacts-link {
+  font-style: normal;
   display: inline-block;
   color: #434455;
 
