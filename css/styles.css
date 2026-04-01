@@ -7,8 +7,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+
   background-color: #ffffff;
   color: #2e2f42;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 body:has(.modal-overlay.is-open) {
   overflow-y: hidden;
@@ -69,10 +74,13 @@ a {
 .logo-header {
   font-size: 18px;
   font-weight: 700;
+
   color: #2e2f42;
+
   text-transform: uppercase;
   letter-spacing: 0.03em;
   font-family: Raleway, sans-serif;
+
   margin-right: 76px;
 }
 .web-blue {
@@ -82,6 +90,7 @@ a {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: #4d5ae5;
 }
 .studio-light {
@@ -91,13 +100,12 @@ a {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: #2e2f42;
 }
 .nav-list {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+
   color: #2e2f42;
 }
 .nav-column {
@@ -108,26 +116,27 @@ a {
 .nav-list-link {
   position: relative;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+
   color: #2e2f42;
   display: inline-block;
+
   padding-top: 24px;
   padding-bottom: 24px;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-link::after {
   content: '';
   position: absolute;
+
   border-radius: 2px;
+
   width: 100%;
   height: 4px;
   left: 0;
   bottom: -1px;
+
   background-color: #404bbf;
 
   opacity: 0;
@@ -141,21 +150,14 @@ a {
   color: #404bbf;
 }
 .contacts-inform {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
+
   display: flex;
   margin-left: auto;
 }
 .contacts-column {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
+
   margin: auto;
   align-items: center;
   display: flex;
@@ -165,9 +167,8 @@ a {
 .contacts-link {
   display: inline-block;
   color: #434455;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*#endregion header*/
@@ -175,17 +176,21 @@ a {
 /*#region Hero*/
 .hero-section {
   background-color: #2e2f42;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+
   padding-top: 188px;
   padding-bottom: 188px;
+
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url('../images/people-office.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -193,7 +198,7 @@ a {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
-  letter-spacing: 0.02em;
+
   text-align: center;
   color: #ffffff;
 
@@ -204,8 +209,7 @@ a {
   cursor: pointer;
 
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+
   letter-spacing: 0.04em;
 
   color: #ffffff;
@@ -221,9 +225,7 @@ a {
   display: flex;
   margin: 0 auto;
 
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*#endregion hero section*/
 /*#region Features section */
@@ -260,31 +262,31 @@ a {
   display: flex;
   flex-direction: column;
   gap: 8px;
+
   width: calc((100% - 3 * 24px) / 4);
 }
 .our-features-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+
   border: 1px solid #8e8f99;
   border-radius: 4px;
+
   width: 100%;
   height: 112px;
+
   background-color: #f4f4fd;
 }
 .our-features-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+
   color: #2e2f42;
 }
 
 .our-features-slogan {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 /*#endregion features section*/
@@ -298,7 +300,7 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  letter-spacing: 0.02em;
+
   text-align: center;
   color: #2e2f42;
   padding-bottom: 72px;
@@ -327,7 +329,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+
   text-align: center;
   color: #2e2f42;
 
@@ -335,10 +337,6 @@ a {
 }
 
 .our-team-subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
@@ -403,7 +401,7 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
-  letter-spacing: 0.02em;
+
   text-align: center;
   color: #2e2f42;
 }
@@ -420,11 +418,10 @@ a {
 .portfolio-list {
   justify-content: space-between;
   gap: 24px;
+
   width: calc((100% - 2 * 24px) / 3);
 
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list:hover {
@@ -456,16 +453,10 @@ a {
   width: 100%;
   height: 100%;
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
   background-color: #4d5ae5;
 
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-grid {
   padding: 32px 16px 32px 16px;
@@ -476,15 +467,12 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+
   color: #2e2f42;
   background-color: #ffffff;
 }
 
 .portfolio-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
   padding-top: 8px;
@@ -493,10 +481,6 @@ a {
 /*#region Footer section */
 
 .footer-desc {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
   color: #f4f4fd;
 
   max-width: 264px;
@@ -549,9 +533,7 @@ a {
 }
 .media-subtitle {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+
   color: #ffffff;
 
   margin-bottom: 16px;
@@ -686,9 +668,7 @@ a {
 }
 .modal-slogan {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+
   text-align: center;
   color: #2e2f42;
 
@@ -842,15 +822,15 @@ a {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
 
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*#endregion modal form*/
 
 /*#region Footer form subcribe */
 .footer-three-section {
-  margin-left: 80px;
+  /* margin-left: 80px; */
+
+  margin-left: auto;
 }
 .footer-form {
   display: flex;
@@ -861,10 +841,8 @@ a {
 .subscribe-item {
   color: rgba(255, 255, 255, 1);
 
-  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.02em;
   text-align: left;
 
   margin-bottom: 16px;
@@ -916,7 +894,6 @@ a {
   color: rgba(255, 255, 255, 1);
   border: none;
 
-  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
